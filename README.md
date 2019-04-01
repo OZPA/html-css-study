@@ -27,3 +27,11 @@ OZPA
 ## アジェンダ
 
 https://github.com/OZPA/html-css-study/wiki/Agenda
+
+
+---
+
+## その他
+
+### エディタ（入れると作業がはかどります）
+Visual Studio Code : https://azure.microsoft.com/ja-jp/products/visual-studio-code/
