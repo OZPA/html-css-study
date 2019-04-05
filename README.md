@@ -1,4 +1,4 @@
-# html-css-study
+﻿# html-css-study
 
 ## Overview
 
@@ -22,7 +22,7 @@ OZPA
 
 ## 参加者
 Yuka
-
+FUSAE
 ---
 
 ## アジェンダ
