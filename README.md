@@ -1,4 +1,4 @@
-# html-css-study
+﻿# html-css-study
 
 ## Overview
 
@@ -21,7 +21,11 @@ gitは怖くないよ！htmlもcssも怖くないよ！
 OZPA
 
 ## 参加者
+蛭田  
+Yuka  
+FUSAE  
 OZPA
+
 ---
 
 ## アジェンダ
