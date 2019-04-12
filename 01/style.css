@@ -12,7 +12,7 @@ h1 {
 -------- cssの書き方ここまで -------- */
 
 p.red {
-  color:  red;
+  color: red;
 }
 
 #box {
@@ -23,7 +23,7 @@ p.red {
 }
 
 .white {
-  color: white
+  color: white;
 }
 
 .first p {
@@ -31,5 +31,5 @@ p.red {
 }
 
 .second p {
-  color: #e67e22
+  color: #e67e22;
 }
