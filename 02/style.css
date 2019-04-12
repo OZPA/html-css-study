@@ -1,0 +1,10 @@
+/* base */
+
+.goal p,
+.left p,
+.right p {
+  text-align: center;
+  font-weight: bold;
+}
+
+/* -------- ここから下にstyleを書いてください -------- */
