@@ -7,4 +7,46 @@
   font-weight: bold;
 }
 
-/* -------- ここから下にstyleを書いてください -------- */
+/* -------- answer 01 -------- */
+
+/* .wrapper {
+  width: 1000px;
+  display: block;
+  margin: auto;
+}
+
+.left {
+  float: left;
+  width: 480px;
+}
+
+.right {
+  float: right;
+  width: 480px;
+}
+
+img {
+  max-width: 100%;
+} */
+
+/* -------- answer 01_1 -------- */
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.left,
+.right {
+  width: 480px;
+}
+
+img {
+  max-width: 100%;
+}
