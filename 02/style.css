@@ -13,4 +13,29 @@
   font-weight: bold;
 }
 
+.clearfix::after {
+  content : " ";
+  display : block;
+  clear : both;
+}
+
 /* -------- ここから下にstyleを書いてください -------- */
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 1000px;
+}
+
+.left {
+  width: 480px;
+}
+
+.right {
+  width: 480px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
