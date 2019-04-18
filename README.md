@@ -18,14 +18,14 @@ gitは怖くないよ！htmlもcssも怖くないよ！
 ---
 
 ## 教える人
-OZPA
+* OZPA
 
 ## 参加者
-蛭田  
-Yuka  
-FUSAE  
-rika
-OZPA
+* 蛭田
+* Yuka
+* FUSAE
+* rika
+* OZPA
 
 ---
 
