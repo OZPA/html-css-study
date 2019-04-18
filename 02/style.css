@@ -1,0 +1,33 @@
+/* base */
+
+.goal {
+  width: 1000px;
+  display: block;
+  margin: 0 auto 30px;
+}
+
+.goal p {
+  margin-bottom: 20px;
+  font-size: 1.4em;
+}
+
+.clearfix::after {
+  content : " ";
+  display : block;
+  clear : both;
+}
+
+/* -------- ここから下にstyleを書いてください -------- */
+
+
+
+
+
+
+/* -------- Level 3 background-olor -------- */
+
+/* --------
+.box_01 : #2ecc71
+.box_02 : #1abc9c
+.inner : #fff
+ -------- */
