@@ -3,14 +3,12 @@
 .goal {
   width: 1000px;
   display: block;
-  margin: auto;
+  margin: 0 auto 30px;
 }
 
-.goal p,
-.left p,
-.right p {
-  text-align: center;
-  font-weight: bold;
+.goal p {
+  margin-bottom: 20px;
+  font-size: 1.4em;
 }
 
 .clearfix::after {
@@ -20,22 +18,16 @@
 }
 
 /* -------- ここから下にstyleを書いてください -------- */
-.wrapper {
-  display: flex;
-  justify-content: space-between;
-  margin: auto;
-  width: 1000px;
-}
 
-.left {
-  width: 480px;
-}
 
-.right {
-  width: 480px;
-}
 
-img {
-  max-width: 100%;
-  height: auto;
-}
+
+
+
+/* -------- Level 3 background-olor -------- */
+
+/* --------
+.box_01 : #2ecc71
+.box_02 : #1abc9c
+.inner : #fff
+ -------- */
