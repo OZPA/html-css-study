@@ -18,12 +18,60 @@
 }
 
 /* -------- ここから下にstyleを書いてください -------- */
+.container_01 {
+  margin: auto;
+  width: 1000px;
+  display: block;
+}
+.left_01 {
+  float: left;
+  width:480px;
+}
+.right_01 {
+  float: right;
+  width:480px;
+}
+img {
+  width: 100%;
+  height: auto;
+}
 
-
-
-
-
-
+.container_02 {
+  margin: auto;
+  justify-content: space-between;
+  display: flex;
+  width: 1000px;
+}
+.left_02,
+.right_02 {
+  width: 480px;
+}
+.container_03 {
+  width: 1000px;
+  justify-content: space-between;
+  display: flex;
+  margin: auto;
+}
+.box_01 {
+  width: 400px;
+  padding: 30px;
+  background: #2ecc71;
+  box-sizing: border-box;
+  align-items: stretch;
+  display: flex;
+}
+.box_02 {
+  width: 580px;
+  padding: 30px;
+  background: #1abc9c;
+  box-sizing: border-box;
+  align-items: stretch;
+  display: flex;
+}
+.inner {
+  padding: 20px;
+  background: white;
+}
 /* -------- Level 3 background-olor -------- */
 
 /* --------
