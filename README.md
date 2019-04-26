@@ -25,7 +25,7 @@ gitは怖くないよ！htmlもcssも怖くないよ！
 * Yuka
 * FUSAE
 * rika
-* OZPA
+* OZPA-honmono
 
 ---
 
