@@ -25,6 +25,7 @@ gitは怖くないよ！htmlもcssも怖くないよ！
 * Yuka
 * FUSAE
 * rika
+* shoji
 * okazaki
 * OZPA
 
