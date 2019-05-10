@@ -109,6 +109,6 @@ p.recommend_person span.recommend_catch {
   text-decoration: underline;
 }
 
-img.recommend_photo {
+.recommend_item img.recommend_photo {
   border-radius: 100%;
 }
