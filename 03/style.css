@@ -5,14 +5,30 @@ p {
   font-family: 'M PLUS 1p', sans-serif;
   line-height: 1.7;
 }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  width: 100%;
+}
+
+header {
+  background: url(img/header_bg.jpg) bottom center;
+  background-size: cover;
+}
+
 header .title {
-  padding: 1em;
+  padding: 3em 1em;
   display: block;
-  background: #80DAFF;
-  color: #fff;
-  border: none;
+  color: #80DAFF;
+  text-shadow: rgb(0, 78, 109) 0 0 10px;
   text-align: center;
-  font-weight: bold;
+  font-weight: 800;
+  font-size: 3.6em;
 }
 
 p.lead_text {
@@ -38,3 +54,61 @@ main.main {
   padding: 50px 0;
 }
 
+h2.main_title {
+  display: block;
+  width: 60%;
+  margin: 0 auto 30px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #000;
+  text-align: center;
+}
+
+.main ul {
+  display: block;
+  width: 300px;
+  margin: auto;
+  padding: 1.3em;
+  border: 3px solid #F88EA4;
+  border-radius: 10px;
+  color: #F88EA4;
+  text-align: center;
+  list-style: none;
+}
+
+section.recommend {
+  width: 60%;
+  margin: 30px auto;
+  background: #F88EA4;
+  padding: 30px 20px;
+}
+
+h3.recommend_title {
+  color: #fff;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+section .recommend_item {
+  margin: 10px auto 0;
+  text-align: center;
+}
+
+p.recommend_person {
+  color: #fff;
+}
+
+p.recommend_person span.recommend_name {
+  padding: 0 4px;
+  font-size: 2em;
+  font-weight: 800;
+}
+
+p.recommend_person span.recommend_catch {
+  padding: 0 4px;
+  font-size: 2em;
+  text-decoration: underline;
+}
+
+img.recommend_photo {
+  border-radius: 100%;
+}
