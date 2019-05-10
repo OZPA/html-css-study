@@ -10,3 +10,32 @@ h1 {
 
 参考：https://saruwakakun.com/html-css/reference/selector
 -------- cssの書き方ここまで -------- */
+
+
+p{
+  color: red;
+}
+
+
+
+#box{
+  background-color: blue;
+  width: 500px;
+  height: 300px;
+  border: 5px solid yellow;
+}
+
+
+.text{
+  color: white;
+}
+
+
+
+.first p {
+  color:#3498db;
+}
+
+.second p {
+  color:#e67e22;
+}
