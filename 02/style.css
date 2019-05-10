@@ -20,6 +20,100 @@
 /* -------- ここから下にstyleを書いてください -------- */
 
 
+.container_01 {
+  width: 1000px;
+  margin: auto;
+  }
+
+.left_01 {
+  float: left;
+}
+
+.left_01 img {
+  width: 480px;
+}
+
+.left_01 p {
+  margin-bottom: 12px;
+  font-weight: bolder;
+  font-size: 14px;
+  text-align: center;
+}
+
+.right_01 {
+  float: right;
+}
+
+.right_01 img {
+  width: 480px;
+}
+
+.right_01 p {
+  margin-bottom: 12px;
+  font-weight: bolder;
+  font-size: 14px;
+  text-align: center;
+}
+
+.container_02 {
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  }
+
+.left_02 img {
+  width: 480px;
+}
+
+.left_02 p {
+  margin-bottom: 12px;
+  font-weight: bolder;
+  font-size: 14px;
+  text-align: center;
+}
+
+.right_02 img {
+  width: 480px;
+}
+
+.right_02 p {
+  margin-bottom: 12px;
+  font-weight: bolder;
+  font-size: 14px;
+  text-align: center;
+}
+
+.container_03 {
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  }
+
+.box_01 {
+  width: 400px;
+  border : solid 30px #27cb70;
+  box-sizing:border-box;
+  }
+
+.box_01 p {
+  font-size: 16px;
+  padding: 20px;
+  text-align: left;
+  }
+
+.box_02 {
+  width: 580px;
+  border : solid 30px #00b38f; 
+  box-sizing:border-box;
+  }
+
+.box_02 p {
+  font-size: 16px;
+  padding: 20px;
+  text-align: left;
+  }
 
 
 
