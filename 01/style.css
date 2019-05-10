@@ -12,30 +12,25 @@ h1 {
 -------- cssの書き方ここまで -------- */
 
 
-p{
+p {
   color: red;
 }
 
-
-
-#box{
+#box {
   background-color: blue;
   width: 500px;
   height: 300px;
   border: 5px solid yellow;
 }
 
-
-.text{
+.text {
   color: white;
 }
 
-
-
 .first p {
-  color:#3498db;
+  color: #3498db;
 }
 
 .second p {
-  color:#e67e22;
+  color: #e67e22;
 }
