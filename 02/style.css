@@ -21,40 +21,40 @@
 
 .container_01 {
   width: 1000px;
-  }
+}
 .container_01 img {
   width: 480px;
-  }
+}
 .left_01 {
   float: left;
   margin-right: 40px;
-  }
+}
 .right_01 {
   float: right;
-  }
+}
 .container_02 {
   display: flex;
   width: 1000px;
   justify-content: space-between;
-  }
+}
 .container_02 img {
   width: 480px;
-  }
+}
 .container_03 {
   display: flex;
   justify-content: space-between;
   width: 1000px;
-  }
+}
 .box_01 {
   width: 400px;
-  }
+}
 .box_02 {
   width: 580px;
-  }
+}
 .inner {
   margin: 30px;
   padding: 20px;
-  }
+}
 
 
 
