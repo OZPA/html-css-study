@@ -25,7 +25,6 @@
 }
 .container_01 img, .container_02 img {
   width: 480px;
-  margin-bottom: 20px;
 }
 .left_01 {
   float: left;
@@ -33,9 +32,6 @@
 }
 .right_01 {
   float: right;
-}
-.container_01 + p {
-  clear: both;
 }
 .container_02, .container_03 {
   display: flex;
