@@ -13,42 +13,49 @@
 
   <!-- 以下2行はヘッダーエリアです。headerタグで囲んでください。 -->
     <!-- 以下はタイトル（見出し1）です。h1タグで囲み、class="title"を設定してください。 -->
-    OZPAの日向坂46ファンサイト
+  <header>
+    <h1 class="title">OZPAの日向坂46ファンサイト</h1>
 
   <!-- 以下3行はサイトの説明文です。適切なタグで囲み、lead_textというclassをつけてください。 -->
-  このサイトは管理人のOZPAによる日向坂46さんの非公式ファンサイトです。
+    <p class="lead_text">このサイトは管理人のOZPAによる日向坂46さんの非公式ファンサイトです。<br>
   <!-- ここで改行してください。また、`公式サイト` に別タブで開くようにリンクを設定し、`https://www.hinatazaka46.com` へリンクするようにしてください。 -->
-  公式サイトとはなんの関係もございません。
-
+    <a href="https://www.hinatazaka46.com" target="blank">公式サイト</a>とはなんの関係もございません。</p>
+  </header>
 
   <!-- 以下、最後までmainエリアです。mainタグで囲み、.mainを設定してください。 -->
   <!-- 以下は見出し2です。h2.main_titleを設定してください。 -->
-  2019.3.27 デビューシングル「キュン」リリース！収録曲は↓
+  <main class="main">
+    <h2 class="main_title">2019.3.27 デビューシングル「キュン」リリース！収録曲は↓</h2>
 
   <!-- 以下はリストのエリアです。全体をulタグで囲み、それぞれの要素をliタグで囲んでください。 -->
-    キュン
-    JOYFUL LOVE
-    耳に落ちる涙
-    キュン　off vocal ver.
-    JOYFUL LOVE off vocal ver.
-    耳に落ちる涙 off vocal ver.
+    <ul>キュン
+      <li>JOYFUL LOVE</li>
+      <li>耳に落ちる涙</li>
+      <li>キュン　off vocal ver.</li>
+      <li>JOYFUL LOVE off vocal ver.</li>
+      <li>耳に落ちる涙 off vocal ver.</li>
+    </ul>
 
 
     <!-- 以下はsectionエリアです。section.recommendを設定してください。 -->
     <!-- sectionエリアここから -->
+    <section class="recommend">
       <!-- h3.recommend_titleを設定してください。「推しメン」を強調タグで強調してください。 -->
-      私の推しメンコーナー
+      <h3 class="recommend_title">私の<em>推しメン</em>コーナー</h3>
 
       <!-- 以下をdiv.recommend_itemで囲んでください。
         「金村美玖を推すしかない！」にp.recommend_personを設定してください。「金村美玖」にspan.recommend_nameタグを、「推すしかない！」にspan.recommend_catchを設定してください。
         画像を同じディレクトリ内のimg/kanemura.jpgに設定し、.recommend_photoを設定してください。altは「金村美玖」と設定してください。 -->
-      金村美玖を推すしかない！
-
+      <div class="recommend_item">
+        <p class="recommend_person">
+        <span class="recommend_name">金村美玖</span>を<span class="recommend_catch">推すしかない！</span>
+        </p>
       <!-- ここに画像をいれてください -->
+        <img class="recommend_photo" src="img/kanemura.jpg" alt="金村美玖">
+      </div>
 
 
-
-    <!-- sectionエリアここまで -->
-  <!-- mainエリアここまで -->
+    </section><!-- sectionエリアここまで -->
+  </main><!-- mainエリアここまで -->
 </body>
 </html>
