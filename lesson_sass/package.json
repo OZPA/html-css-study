@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "parcel index.html --open"
+    "watch": "parcel index.html --open --no-source-maps",
+    "build": "parcel build *.html --no-source-maps"
   },
   "keywords": [],
   "author": "",
