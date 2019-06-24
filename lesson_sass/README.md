@@ -17,7 +17,7 @@ Sassは*cssのように直接ブラウザが読み取ってくれません。* �
 
 $ cd
 $ cd Desktop/html-css-study/lesson_sass
-$ npm i -D parcel
+$ npm install
 $ npm run watch
 ```
 
