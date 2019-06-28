@@ -1,8 +1,14 @@
 /*
 ①import機能
+
+Sassでは @import "hoge.scss"; のように、他のscssファイルをインポートすることができます。header.scss, main.scss のようにわけることでコードの見通しが良くなるといった利点があります。
+なお、 "_hoge.scss" と、アンダーバーを先頭につけることで、そのファイル自体はコンパイルされず（cssが作成されない）、インポート用のみのscssファイルを作成することもできます。
+
+早速 @import "base" の下に、button.scss をインポートしてみてください。
 */
 
 @import "base";
+
 
 /*
 ② 変数を使える
@@ -20,6 +26,20 @@ $text_color: #1a1a1a;
 }
 
 変数を用意したので、使ってみましょう。
+・.content の背景色に $bg_colorを、widthに $content_width を、paddingに $inner_padding を設定してください
+・.inner の背景色に $inner_bg_color を、paddingに $inner_padding を設定してください。
 */
 
-$main_color: #00a8ff;
+$content_bg_color: #00a8ff;
+$content_width: 60em;
+$inner_bg_color: #aacddf;
+$inner_padding: 20px;
+
+.content {
+  margin: auto;
+}
+
+.inner {
+}
+
+
