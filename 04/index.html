@@ -22,9 +22,11 @@
     <p class="main_caption">This is caption.This is caption.This is caption.</p>
 
     <article class="post">
-      <time class="post_time" datetime="2019-05-24T12:34">2019/5/24 12:34</time>
-      <h2 class="post_title">Article Title</h2>
-      <img class="post_main_image" src="img/italy.png" alt="イタリア">
+      <header>
+        <time class="post_time" datetime="2019-05-24T12:34">2019/5/24 12:34</time>
+        <h2 class="post_title">Article Title</h2>
+      </header>
+      <img class="post_image" src="img/italy.png" alt="イタリア">
       <p class="post_text">本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト</p>
       <ol class="post_ol">
         <li>firstfirstfirst</li>
@@ -33,7 +35,7 @@
         <li>fourthfourthfourth</li>
       </ol>
       <p class="post_text">本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト</p>
-      <img class="post_sub_image" src="img/fire_hydrant.png">
+      <img class="post_image post_image_sub" src="img/fire_hydrant.png">
       <ul class="post_ul">
         <li>リスト1</li>
         <li>リスト2</li>
@@ -51,19 +53,17 @@
       </div>
       <div class="author_box">
         <img class="author_photo" src="img/author.png" alt="山田太郎">
-        <h3>この記事を書いた人</h3>
-        <p>
-          <span class="author_name">山田太郎</span><br>
-        フリーライター。いろんなことを書いています。いろんなことを書いています。
-      </p>
+        <h3 class="auther_title">この記事を書いた人</h3>
+        <p class="auther_name">山田太郎</p>
+        <p class="auther_text"> フリーライター。いろんなことを書いています。いろんなことを書いています。</p>
       </div>
     </article>
 
     <nav class="article_nav">
-      <p>
-        <a class="prev">前の記事</a>
-        <a class="next">次の記事</a>
-      </p>
+      <ul>
+        <li><a class="prev">前の記事</a></li>
+        <li><a class="next">次の記事</a></li>
+      </ul>
     </nav>
 
   </main>
