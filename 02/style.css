@@ -59,14 +59,14 @@
 .container_03 {
   display: flex;
   justify-content: space-between;
-  width:1000px;
+  width: 1000px;
   margin: auto;
 }
 .box_01 {
   background-color: #2ecc71;
   width: 400px;
   padding: 30px;
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
 .box_02 {
   width: 580px;
