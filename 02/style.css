@@ -70,15 +70,15 @@
 }
 .box_02 {
   width: 580px;
-  background-color:#1abc9c;
+  background-color: #1abc9c;
   padding: 30px;
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
 .inner {
-  background-color:#fff;
+  background-color: #fff;
   padding: 20px; 
   height: 100%;
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
 
 
