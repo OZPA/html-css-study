@@ -19,9 +19,39 @@
 
 /* -------- ここから下にstyleを書いてください -------- */
 
-
-
-
+.container_01 {
+  width: 1000px;
+  margin: auto;
+}
+.container_01 img, .container_02 img {
+  width: 480px;
+}
+.left_01 {
+  float: left;
+  margin-right: 40px;
+}
+.right_01 {
+  float: right;
+}
+.container_02, .container_03 {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  margin: auto;
+}
+.box_01 {
+  width: 400px;
+  border: 30px solid #2ecc71;
+  box-sizing: border-box;
+}
+.box_02 {
+  width: 580px;
+  border: 30px solid #1abc9c;
+  box-sizing: border-box;
+}
+.inner p {
+  padding: 20px;
+}
 
 
 /* -------- Level 3 background-olor -------- */
