@@ -15,10 +15,10 @@ h1 {
   width: 500px;
   height: 300px;
   background-color: blue;
-  border color: 5px solid yellow;
+  border : 5px solid yellow;
 }
 
-.aaa {
+.red {
   color: red;
 }
 
