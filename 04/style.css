@@ -12,3 +12,6 @@ body {
 .header img{
     margin: 8px 0 7px 12px;
 }
+.main{
+    padding: 0 14px;
+}
