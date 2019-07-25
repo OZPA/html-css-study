@@ -33,7 +33,6 @@
   height: auto;
 }
 
-
 .right_01 {
   float: right; 
 }
@@ -44,7 +43,6 @@
   height: auto;
 }
 
-
 .container_02{
   width: 1000px;
   display: flex;
@@ -52,21 +50,17 @@
   margin: auto;
 }
 
-
 .left_02 img{
   max-width: 480px;
   width: 100%;
   height: auto;
 }
 
-
 .right_02 img{
   max-width: 480px;
   width: 100%;
   height: auto;
 }
-
-
 /* -------- Level 3 background-olor -------- */
 .container_03{
   max-width: 1000px;
@@ -79,7 +73,6 @@
 .box_02 : #1abc9c
 .inner : #fff
  -------- */
-
  .box_01{
    width: 400px;
    border: solid 30px #2ecc71;
