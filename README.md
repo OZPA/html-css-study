@@ -29,6 +29,7 @@ gitは怖くないよ！htmlもcssも怖くないよ！
 * okazaki
 * yuri
 * kikuchi
+* ほげ太郎
 * OZPA
 
 ---
