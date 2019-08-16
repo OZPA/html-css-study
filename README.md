@@ -30,6 +30,7 @@ gitは怖くないよ！htmlもcssも怖くないよ！
 * yuri
 * kikuchi
 * OZPA
+* nobukoni
 
 ---
 
