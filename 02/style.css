@@ -19,9 +19,20 @@
 
 /* -------- ここから下にstyleを書いてください -------- */
 
+div.container_01{
+  width: 1000px;
+  border: 2px solid black;
+  padding: 2em;
+}
 
+div.left_01 img{
+  width: 480px;
+  float: left;
+}
 
-
+div.right_01 img{
+  width: 480px;
+}
 
 
 /* -------- Level 3 background-olor -------- */
