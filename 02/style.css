@@ -12,30 +12,75 @@
 }
 
 .clearfix::after {
-  content : " ";
-  display : block;
-  clear : both;
+  content: " ";
+  display: block;
+  clear: both;
 }
+
 
 /* -------- ここから下にstyleを書いてください -------- */
 
-div.container_01{
+
+/* level 1 スタイル */
+
+div.container_01 {
   width: 1000px;
   border: 2px solid black;
-  padding: 2em;
+  padding: 20px;
+  margin: auto;
 }
 
-div.left_01 img{
-  width: 480px;
+.left_01 {
   float: left;
 }
 
-div.right_01 img{
+.left_01 p {
+  text-align: center;
+  margin-top: 0px;
+}
+
+div.left_01 img {
+  width: 480px;
+  margin-right: 10px;
+}
+
+.right_01 p {
+  text-align: center;
+}
+
+div.right_01 img {
+  width: 480px;
+  margin-left: 10px;
+}
+
+
+/* Level 2 スタイル */
+
+.container_02 {
+  border: 2px solid black;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  padding: 20px;
+  margin: auto;
+}
+
+.container_02 p {
+  text-align: center;
+}
+
+.left_02 img {
+  width: 480px;
+}
+
+.right_02 img {
   width: 480px;
 }
 
 
 /* -------- Level 3 background-olor -------- */
+
 
 /* --------
 .box_01 : #2ecc71
