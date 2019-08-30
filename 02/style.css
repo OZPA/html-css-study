@@ -38,10 +38,7 @@
   float: right;
 }
 
-.left_01 p {
-  text-align: center;
-}
-
+.left_01 p,
 .right_01 p {
   text-align: center;
 }
