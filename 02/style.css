@@ -23,8 +23,8 @@
 
 /* level 1 スタイル */
 
-div.container_01 {
-  width: 1000px;
+.container_01 {
+  width: 1004px;
   border: 2px solid black;
   padding: 20px;
   margin: auto;
@@ -34,23 +34,26 @@ div.container_01 {
   float: left;
 }
 
-.left_01 p {
-  text-align: center;
-  margin-top: 0px;
+.right_01 {
+  float: right;
 }
 
-div.left_01 img {
-  width: 480px;
-  margin-right: 10px;
+.left_01 p {
+  text-align: center;
 }
 
 .right_01 p {
   text-align: center;
 }
 
-div.right_01 img {
+.left_01 img {
   width: 480px;
-  margin-left: 10px;
+  height: auto;
+}
+
+.right_01 img {
+  width: 480px;
+  height: auto;
 }
 
 
@@ -58,28 +61,56 @@ div.right_01 img {
 
 .container_02 {
   border: 2px solid black;
-  display: -webkit-flex;
   display: flex;
   justify-content: space-between;
-  width: 1000px;
-  padding: 20px;
+  width: 996px;
   margin: auto;
-}
-
-.container_02 p {
   text-align: center;
 }
 
 .left_02 img {
   width: 480px;
+  height: auto;
 }
 
 .right_02 img {
   width: 480px;
+  height: auto;
 }
 
 
 /* -------- Level 3 background-olor -------- */
+
+.container_03 {
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.box_01 {
+  width: 400px;
+  padding: 30px;
+  background-color: #2ecc71;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.box_02 {
+  width: 580px;
+  padding: 30px;
+  background-color: #1abc9c;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.inner {
+  background-color: #fff;
+  text-align: left;
+  padding: 20px;
+}
 
 
 /* --------
