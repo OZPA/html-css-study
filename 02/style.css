@@ -47,42 +47,47 @@
   width: 1000px;
   display: flex;
   margin: 0 auto;
-}
-
-.left_02 {
-  align-content:flex-start;
+  justify-content: space-between;
 }
 
 .left_02 img {
   width: 480px;
-}
-
-.right_02 {
-  align-content:flex-end;
+  height: auto;
 }
 
 .right_02 img{
   width: 480px;
+  height: auto;
 }
 
 /* -------- Level 3 -------- */
 
 .container_03 {
   width: 1000px;
+  height: auto;
   display: flex;
   margin: 0 auto;
+  justify-content: space-between;
 }
 
 .box_01 {
-  margin: 30px;
-  padding: 20px;
+  background-color: #2ecc71;
   width: 400px;
+  height: auto;
 }
 
 .box_02 {
-  margin: 30px;
-  padding: 20px;
+  background-color: #1abc9c;
   width: 580px;
+  height: auto;
+}
+
+.inner {
+  background-color: #fff;
+  padding: 20px;
+  margin: 30px;
+  width: auto;
+  height: 230px;
 }
 
 }
