@@ -43,11 +43,7 @@
   text-align: center;
 }
 
-.left_01 img {
-  width: 480px;
-  height: auto;
-}
-
+.left_01 img,
 .right_01 img {
   width: 480px;
   height: auto;
@@ -65,11 +61,7 @@
   text-align: center;
 }
 
-.left_02 img {
-  width: 480px;
-  height: auto;
-}
-
+.left_02 img,
 .right_02 img {
   width: 480px;
   height: auto;
