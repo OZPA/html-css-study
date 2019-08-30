@@ -12,19 +12,106 @@
 }
 
 .clearfix::after {
-  content : " ";
-  display : block;
-  clear : both;
+  content: " ";
+  display: block;
+  clear: both;
 }
+
 
 /* -------- ここから下にstyleを書いてください -------- */
 
 
+/* level 1 スタイル */
+
+.container_01 {
+  width: 1004px;
+  border: 2px solid black;
+  padding: 20px;
+  margin: auto;
+}
+
+.left_01 {
+  float: left;
+}
+
+.right_01 {
+  float: right;
+}
+
+.left_01 p {
+  text-align: center;
+}
+
+.right_01 p {
+  text-align: center;
+}
+
+.left_01 img {
+  width: 480px;
+  height: auto;
+}
+
+.right_01 img {
+  width: 480px;
+  height: auto;
+}
 
 
+/* Level 2 スタイル */
+
+.container_02 {
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  width: 996px;
+  margin: auto;
+  text-align: center;
+}
+
+.left_02 img {
+  width: 480px;
+  height: auto;
+}
+
+.right_02 img {
+  width: 480px;
+  height: auto;
+}
 
 
 /* -------- Level 3 background-olor -------- */
+
+.container_03 {
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.box_01 {
+  width: 400px;
+  padding: 30px;
+  background-color: #2ecc71;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.box_02 {
+  width: 580px;
+  padding: 30px;
+  background-color: #1abc9c;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.inner {
+  background-color: #fff;
+  text-align: left;
+  padding: 20px;
+}
+
 
 /* --------
 .box_01 : #2ecc71
