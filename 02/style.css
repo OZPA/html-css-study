@@ -29,7 +29,7 @@
   float: left;
 }
 
-.left_01 img {
+.left_01 img, .right_01 img {
   width: 480px;
 }
 
@@ -37,9 +37,6 @@
   float: right;
 }
 
-.right_01 img{
-  width: 480px;
-}
 
 /* -------- Level 2 -------- */
 
@@ -50,12 +47,7 @@
   justify-content: space-between;
 }
 
-.left_02 img {
-  width: 480px;
-  height: auto;
-}
-
-.right_02 img{
+.left_02 img, .right_02 img {
   width: 480px;
   height: auto;
 }
@@ -71,22 +63,21 @@
   box-sizing: border-box;
 }
 
-.box_01 {
-  background-color: #2ecc71;
-  width: 400px;
+.box_01, .box_02 {
   height: auto;
   box-sizing: border-box;
   padding: 30px;
   display: flex;
 }
 
+.box_01 {
+  background-color: #2ecc71;
+  width: 400px;
+}
+
 .box_02 {
   background-color: #1abc9c;
   width: 580px;
-  height: auto;
-  box-sizing: border-box;
-  padding: 30px;
-  display: flex;
 }
 
 .inner {
