@@ -79,20 +79,21 @@
   text-align: center;
 }
 
-.box_01 {
-  width: 400px;
+.box_01,
+.box_02 {
   padding: 30px;
-  background-color: #2ecc71;
   display: flex;
   box-sizing: border-box;
 }
 
+.box_01 {
+  width: 400px;
+  background-color: #2ecc71;
+}
+
 .box_02 {
   width: 580px;
-  padding: 30px;
   background-color: #1abc9c;
-  display: flex;
-  box-sizing: border-box;
 }
 
 .inner {
