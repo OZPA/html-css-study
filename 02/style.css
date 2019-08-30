@@ -68,30 +68,32 @@
   display: flex;
   margin: 0 auto;
   justify-content: space-between;
+  box-sizing: border-box;
 }
 
 .box_01 {
   background-color: #2ecc71;
   width: 400px;
   height: auto;
+  box-sizing: border-box;
+  padding: 30px;
+  display: flex;
 }
 
 .box_02 {
   background-color: #1abc9c;
   width: 580px;
   height: auto;
+  box-sizing: border-box;
+  padding: 30px;
+  display: flex;
 }
 
 .inner {
   background-color: #fff;
+  box-sizing: border-box;
   padding: 20px;
-  margin: 30px;
-  width: auto;
-  height: 230px;
 }
-
-}
-
 
 
 
