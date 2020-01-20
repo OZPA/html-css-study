@@ -9,7 +9,47 @@
     height: 1340px;
 }
 
+.subtitle{
+    font-size: 24px;
+    color: #252525;
+}
 
-.article-header{
+.article-title{
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #252525;
+}
 
+.article-main{
+    width:320px;
+    height:960px;
+    margin: 0 auto;
+}
+
+.text{
+    color:#252525;
+    font-size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.article-orderlist{
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #6e6e6e;
+}
+
+.side-by-side{
+    display: flex;
+}
+
+.article-list{
+    color:#6e6e6e;
+    font-size: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.blockquote{
+    color:#6e6e6e;
+    font-size: 10px;
+    font-family: 'Courier New', Courier, monospace;
 }
