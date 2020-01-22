@@ -101,3 +101,7 @@ input, select {
     vertical-align:middle;
 }
 /* リセットcssここまで */
+
+*, *:before, *:after {
+    box-sizing: border-box;
+} /* border-boxを全セレクタに適用 */
