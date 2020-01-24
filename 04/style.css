@@ -110,8 +110,25 @@ body {
     width: 320px;
     background-color: #ffffff;
 }
+
 .header {
     background-color: #252525;
     height: 40px;
     padding: 10px 7px;
+}
+
+.hero-image {
+    margin-bottom: 20px;
+}
+
+.site_title{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.site_caption {
+    text-align: center;
+    font-size: 12px;
+    color: #adadad;
 }
