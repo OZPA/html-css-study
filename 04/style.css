@@ -147,3 +147,22 @@ body {
     font-size: 18px;
     line-height: 1.5;
 }
+
+.post_image {
+    margin: 10px 0;
+}
+
+.post_text {
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.post_ol {
+    margin: 20px 0;
+    padding-left: 16px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #666666;
+}
+
