@@ -166,3 +166,26 @@ body {
     color: #666666;
 }
 
+.post_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.post_item01 {
+    order: 1;
+}
+.post_item02 {
+    order: 2;
+}
+
+.post_image_sub {
+    margin-right: 10px;
+}
+
+.post_ul {
+    padding-left: 16px;
+    margin-top: 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #666666;
+}
