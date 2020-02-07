@@ -212,3 +212,23 @@ body {
     bottom: 0;
     content: url(img/quote_close.png);
 }
+
+.share-button_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px;
+}
+
+.share-button_caption {
+    flex-basis: 100%;
+    text-align: center;
+    color: #252525;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+.share-button {
+    margin: 0 16px;
+}
