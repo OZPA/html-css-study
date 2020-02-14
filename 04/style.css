@@ -232,3 +232,32 @@ body {
 .share-button {
     margin: 0 16px;
 }
+
+.author_container {
+    display: flex;
+    padding: 16px 0;
+    border-top: #adadad solid 1px;
+    border-bottom: #adadad solid 1px;
+}   
+
+.author_photo{
+    margin-right: 24px;
+}
+
+.author_title {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 4px;
+}
+
+.author_name {
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 4px;
+}
+
+.author_text {
+    font-size: 10px;
+    line-height: 1.5;
+}
