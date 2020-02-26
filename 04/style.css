@@ -240,7 +240,7 @@ body {
     border-bottom: #adadad solid 1px;
 }   
 
-.author_photo{
+.author_photo {
     margin-right: 24px;
 }
 
@@ -261,3 +261,31 @@ body {
     font-size: 10px;
     line-height: 1.5;
 }
+
+.article-nav {
+    margin: 0  12px;
+    padding: 24px 0;
+    border-bottom: #adadad solid 1px;
+}
+
+.article-nav_list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.article-nav_prev , .article-nav_next , .fa-chevron-left , .fa-chevron-right {
+    font-size: 12px;
+    font-weight: bold;
+    color: #ff015d;
+}
+
+.fa-chevron-left {
+    margin-right: 8px;
+}
+
+.fa-chevron-right {
+    margin-left: 8px;
+}
+
+
