@@ -287,4 +287,14 @@ body {
     margin-left: 8px;
 }
 
+.footer {
+    margin-top: 50px;
+    padding: 10px;
+    background-color: #6e6e6e;
+}
 
+.footer_copyright{
+    color: #ffffff;
+    font-size: 10px;
+    text-align: center;
+}
