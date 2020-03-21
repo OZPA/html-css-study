@@ -282,11 +282,11 @@ body {
     color: #ff015d;
 }
 
-.fa-chevron-left {
+.article-nav-icon_prev {
     margin-right: 8px;
 }
 
-.fa-chevron-right {
+.article-nav-icon_next {
     margin-left: 8px;
 }
 
@@ -297,7 +297,7 @@ body {
 }
 
 .footer_copyright{
-    color: #ffffff;
+    color: #fff;
     font-size: 10px;
     text-align: center;
 }
