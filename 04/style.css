@@ -107,7 +107,7 @@ input, select {
 } /* border-boxを全セレクタに適用 */
 
 body {
-    width: 320px;
+    width: 100%;
     background-color: #ffffff;
 }
 
@@ -118,6 +118,7 @@ body {
 }
 
 .hero-image {
+    width: 100%;
     margin-bottom: 20px;
 }
 
@@ -149,6 +150,7 @@ body {
 }
 
 .post_image {
+    width: 100%;
     margin: 10px 0;
 }
 
