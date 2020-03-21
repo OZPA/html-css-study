@@ -168,7 +168,7 @@ body {
     color: #666666;
 }
 
-.post_container {
+.post {
     display: flex;
     flex-direction: row;
 }
@@ -215,7 +215,7 @@ body {
     content: url(img/quote_close.png);
 }
 
-.share-button_container {
+.share-button {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -236,7 +236,7 @@ body {
     margin: 0 16px;
 }
 
-.author_container {
+.author {
     display: flex;
     padding: 16px 0;
     border-top: #adadad solid 1px;
