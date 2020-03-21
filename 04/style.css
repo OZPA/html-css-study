@@ -276,7 +276,7 @@ body {
     justify-content: space-between;
 }
 
-.article-nav_prev , .article-nav_next , .fa-chevron-left , .fa-chevron-right {
+.article-nav-icon_prev , .article-nav-icon_next , .article-nav-text_prev , .article-nav-text_next {
     font-size: 12px;
     font-weight: bold;
     color: #ff015d;
