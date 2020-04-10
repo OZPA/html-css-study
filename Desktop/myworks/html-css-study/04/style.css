@@ -1,0 +1,345 @@
+/* リセットCSS */
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+body {
+  line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+  display:block;
+}
+
+nav ul {
+  list-style:none;
+}
+
+blockquote, q {
+  quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content:'';
+  content:none;
+}
+
+a {
+  margin:0;
+  padding:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color:#ff9;
+  color:#000;
+  text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color:#ff9;
+  color:#000;
+  font-style:italic;
+   font-weight:bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom:1px dotted;
+  cursor:help;
+}
+
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display:block;
+  height:1px;
+  border:0;
+  border-top:1px solid #cccccc;
+  margin:1em 0;
+  padding:0;
+}
+
+input, select {
+  vertical-align:middle;
+}
+
+/* ボックスサイジング */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* ここから */
+body {
+  width: 100%;
+  color: #000;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'YuGothic', '游ゴシック', 'メイリオ', 'Meiryo', '-apple-system', 'BlinkMacSystemFont', 'Helvetica Neue', 'Arial', 'sans-serif';
+  font-variant-numeric: tabular-nums;
+  -webkit-font-smoothing: antialiased;
+  background-color: #fff;
+}
+
+.header{
+  width: 100%;
+  height: auto;
+  margin-bottom: 48px;
+}
+
+.headerLogoWrapper {
+  width: 100%;
+  height: 50px;
+  background-color: #000;
+  position: relative;
+}
+
+.headerLogo {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 16px;
+}
+
+.headerBody {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-top: 32px;
+}
+
+.headerImg {
+  width: 100%;
+  height: auto;
+}
+
+.headerTitle {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.headerDescription {
+  font-size: 14px;
+  color: #555;
+}
+
+.post {
+  width: 100%;
+  padding: 0 16px 0 16px;
+}
+
+.postHeader {
+  margin-bottom: 32px;
+}
+
+.postDatetime {
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+.postTitle {
+  font-size: 28px;
+}
+
+.postBody{
+  margin-bottom: 32px;
+}
+
+.postImgFull {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.postText {
+  margin-bottom: 16px;
+}
+
+.postOl {
+  padding-left: 1.2em;
+  margin-bottom: 16px;
+  color: #777;
+}
+
+.postWrapper{
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.postImgHalf {
+  width: 50%;
+  float: left;
+  margin-bottom: 32px;
+}
+
+.postUl {
+  width: auto;
+  padding-left: 30px;
+  color: #777;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.postQuote {
+  position: relative;
+  padding: 30px;
+  color: #777;
+}
+
+.postQuote::before {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "“";
+  font-family: serif;
+  font-size: 30px;
+  line-height: 1;
+  color: #777;
+}
+
+.postQuote::after {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  content: "”";
+  font-family: serif;
+  font-size: 30px;
+  line-height: 1;
+  color: #777;
+}
+
+.postShare {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.postShare img {
+  width: 70px;
+  margin: 16px;
+}
+
+.author {
+  width: 100%;
+  height: auto;
+  padding: 0 16px 0 16px;
+}
+
+.authorWrapper {
+  width: 100%;
+  height: auto;
+  border-top: solid 2px #dcdcdc;
+  display: flex;
+  align-items: center;
+}
+
+.authorImg {
+  margin: 16px;
+}
+
+.author img {
+  width: 120px;
+  height: auto;
+}
+
+.authorBody {
+}
+
+.authorHeadline {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.authorCaption {
+  font-size: 12px;
+}
+
+.linearNav {
+  width: 100%;
+  height: auto;
+  padding: 0 16px 0 16px;
+  margin-bottom: 32px;
+}
+
+.linearNavWrapper {
+  width: 100%;
+  height: auto;
+  border-top: solid 2px #dcdcdc;
+  border-bottom: solid 2px #dcdcdc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.btnPrevious {
+  font-size: 24px;
+  font-weight: bold;
+  color: #dc143c;
+}
+
+.btnNext {
+  font-size: 24px;
+  font-weight: bold;
+  color: #dc143c;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: #777;
+  text-align: center;
+}
+
+.copyright {
+  display: inline;
+  color: #fff;
+}
