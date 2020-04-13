@@ -57,6 +57,7 @@ a {
   font-size:100%;
   vertical-align:baseline;
   background:transparent;
+  text-decoration: none;
 }
 
 /* change colours to suit your needs */
@@ -117,7 +118,7 @@ body {
   color: #000;
   line-height: 1.6;
   font-weight: 400;
-  font-family: 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'YuGothic', '游ゴシック', 'メイリオ', 'Meiryo', '-apple-system', 'BlinkMacSystemFont', 'Helvetica Neue', 'Arial', 'sans-serif';
+  font-family: 'ヒラギノ角ゴ ProN W3 W6', 'Hiragino Kaku Gothic ProN', 'YuGothic', '游ゴシック', 'メイリオ', 'Meiryo', '-apple-system', 'BlinkMacSystemFont', 'Helvetica Neue', 'Arial', 'sans-serif';
   font-variant-numeric: tabular-nums;
   -webkit-font-smoothing: antialiased;
   background-color: #fff;
@@ -197,7 +198,7 @@ body {
 }
 
 .postOl {
-  padding-left: 1.2em;
+  margin-left: 1.2em;
   margin-bottom: 16px;
   color: #777;
 }
@@ -209,13 +210,13 @@ body {
 
 .postImgHalf {
   width: 50%;
+  height: auto;
   float: left;
   margin-bottom: 32px;
 }
 
 .postUl {
-  width: auto;
-  padding-left: 30px;
+  margin-left: 1.2em;
   color: #777;
 }
 
@@ -340,6 +341,6 @@ footer {
 }
 
 .copyright {
-  display: inline;
+  line-height: 50px;
   color: #fff;
 }
