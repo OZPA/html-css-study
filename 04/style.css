@@ -107,8 +107,13 @@ input, select {
 } /* border-boxを全セレクタに適用 */
 
 body {
-    width: 100%;
     background-color: #fff;
+}
+
+.body {
+    width: 100%;
+    max-width: 640px;
+    margin: auto;
 }
 
 .header {
@@ -122,7 +127,7 @@ body {
     margin-bottom: 20px;
 }
 
-.site_title{
+.site_title {
     text-align: center;
     font-size: 24px;
     margin-bottom: 8px;
@@ -134,7 +139,7 @@ body {
     color: #adadad;
 }
 
-.post_article {
+.article {
     margin: 40px 12px 0 12px;
 }
 
@@ -185,7 +190,7 @@ body {
 }
 
 .post_ul {
-    padding-left: 16px;
+    padding-left: 24px;
     margin-top: 5px;
     font-size: 12px;
     line-height: 1.5;
