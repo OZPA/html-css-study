@@ -72,7 +72,7 @@ mark {
   background-color:#ff9;
   color:#000;
   font-style:italic;
-   font-weight:bold;
+  font-weight:bold;
 }
 
 del {
@@ -105,29 +105,27 @@ input, select {
 
 /* ボックスサイジング */
 *, *:before, *:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -o-box-sizing: border-box;
-  -ms-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 /* ここから */
 body {
   width: 100%;
+  max-width: 640px;
   color: #000;
   line-height: 1.6;
   font-weight: 400;
-  font-family: 'ヒラギノ角ゴ ProN W3 W6', 'Hiragino Kaku Gothic ProN', 'YuGothic', '游ゴシック', 'メイリオ', 'Meiryo', '-apple-system', 'BlinkMacSystemFont', 'Helvetica Neue', 'Arial', 'sans-serif';
+  font-family: 'Noto Sans JP', 'ヒラギノ角ゴ ProN W3 W6', 'Hiragino Kaku Gothic ProN', 'YuGothic', '游ゴシック', 'メイリオ', 'Meiryo', '-apple-system', 'BlinkMacSystemFont', 'Helvetica Neue', 'Arial', 'sans-serif';
   font-variant-numeric: tabular-nums;
   -webkit-font-smoothing: antialiased;
+  font-size: 12px;
   background-color: #fff;
 }
 
 .header{
   width: 100%;
   height: auto;
-  margin-bottom: 48px;
+  margin-bottom: 53px;
 }
 
 .headerLogoWrapper {
@@ -148,7 +146,7 @@ body {
   width: 100%;
   height: auto;
   text-align: center;
-  margin-top: 32px;
+  margin-top: 20px;
 }
 
 .headerImg {
@@ -157,81 +155,81 @@ body {
 }
 
 .headerTitle {
-  font-size: 32px;
-  font-weight: bold;
+  font-size: 26px;
+  font-weight: 700;
   border-bottom: none;
 }
 
 .headerDescription {
-  font-size: 14px;
-  color: #555;
+  color: #ADADAD;
 }
 
 .post {
   width: 100%;
-  padding: 0 16px 0 16px;
+  padding: 0 13px 0 13px;
 }
 
 .postHeader {
-  margin-bottom: 32px;
+  margin-bottom: 21px;
 }
 
 .postDatetime {
-  font-size: 12px;
+  font-size: 10px;
   margin-bottom: 4px;
 }
 
 .postTitle {
-  font-size: 28px;
-  color: #000;
+  font-size: 21px;
+  font-weight: 500;
 }
 
 .postBody{
-  margin-bottom: 32px;
+  margin-bottom: 30px;
 }
 
 .postImgFull {
   width: 100%;
-  margin-bottom: 16px;
+  height: auto;
+  margin-bottom: 14px;
 }
 
 .postText {
-  margin-bottom: 16px;
+  margin-bottom: 14px;
 }
 
 .postOl {
-  margin-left: 1.2em;
-  margin-bottom: 16px;
-  color: #777;
+  margin-left: 13px;
+  margin-bottom: 14px;
+  font-size: 11px;
+  color: #6E6E6E;
 }
 
 .postWrapper{
   display: flex;
-  margin-bottom: 16px;
+  margin-bottom: 14px;
+}
+
+.post2column{
+  display: flex;
+  margin-bottom: 20px;
 }
 
 .postImgHalf {
-  width: 50%;
+  width: 43%;
   height: auto;
-  float: left;
-  margin-bottom: 32px;
 }
 
 .postUl {
-  margin-left: 1.2em;
-  color: #777;
-}
-
-.clearfix::after {
-  content: '';
-  display: block;
-  clear: both;
+  font-size: 11px;
+  margin-left: 30px;
+  color: #6E6E6E;
 }
 
 .postQuote {
   position: relative;
-  padding: 30px;
-  color: #777;
+  padding: 17px;
+  font-size: 11px;
+  color: #6E6E6E;
 }
 
 .postQuote::before {
@@ -241,9 +239,9 @@ body {
   left: 0;
   content: "“";
   font-family: serif;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 1;
-  color: #777;
+  color: #6E6E6E;
 }
 
 .postQuote::after {
@@ -253,69 +251,68 @@ body {
   right: 0;
   content: "”";
   font-family: serif;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 1;
   color: #777;
 }
 
 .postShare {
   text-align: center;
-  margin-bottom: 32px;
+  margin-bottom: 22px;
 }
 
 .postShare img {
-  width: 70px;
-  margin: 16px;
+  width: 28px;
+  height: auto;
+  margin: 10px 22px 0 22px;
 }
 
 .author {
   width: 100%;
   height: auto;
-  padding: 0 16px 0 16px;
+  padding: 0 13px 0 13px;
 }
 
 .authorWrapper {
   width: 100%;
   height: auto;
-  border-top: solid 2px #dcdcdc;
+  border-top: solid 1px #E9E9E9;
   display: flex;
   align-items: center;
+  padding: 16px 0;
 }
 
 .authorImg {
-  margin: 16px;
+  margin-right: 20px;
 }
 
 .author img {
-  width: 120px;
+  width: 74px;
   height: auto;
 }
 
-.authorBody {
-}
-
 .authorHeadline {
-  font-size: 22px;
-  font-weight: bold;
+  font-size: 14px;
+  font-weight: 700;
   margin-bottom: 4px;
 }
 
 .authorCaption {
-  font-size: 12px;
+  font-size: 8px;
 }
 
 .linearNav {
   width: 100%;
   height: auto;
-  padding: 0 16px 0 16px;
-  margin-bottom: 32px;
+  padding: 0 13px 0 13px;
+  margin-bottom: 34px;
 }
 
 .linearNavWrapper {
   width: 100%;
   height: auto;
-  border-top: solid 2px #dcdcdc;
-  border-bottom: solid 2px #dcdcdc;
+  border-top: solid 1px #E9E9E9;
+  border-bottom: solid 1px #E9E9E9;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -324,25 +321,25 @@ body {
 }
 
 .btnPrevious {
-  font-size: 24px;
-  font-weight: bold;
-  color: #dc143c;
+  font-size: 12px;
+  font-weight: 700;
+  color: #FF015D;
 }
 
 .btnNext {
-  font-size: 24px;
-  font-weight: bold;
-  color: #dc143c;
+  font-size: 12px;
+  font-weight: 700;
+  color: #FF015D;
 }
 
-footer {
+.footer {
   width: 100%;
-  height: 50px;
-  background-color: #777;
+  height: 30px;
+  background-color: #6E6E6E;
   text-align: center;
 }
 
 .copyright {
-  line-height: 50px;
+  line-height: 30px;
   color: #fff;
 }
