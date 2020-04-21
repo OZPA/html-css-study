@@ -198,9 +198,10 @@ body {
 }
 
 .postOl {
-  margin-left: 13px;
-  margin-bottom: 14px;
+  margin: 0 0 14px 13px;
+  padding-right: 13px;
   font-size: 11px;
+  word-wrap: break-word;
   color: #6E6E6E;
 }
 
