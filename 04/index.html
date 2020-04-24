@@ -11,8 +11,8 @@
 </head>
 <body>
   <header class="header">
-    <div class="headerLogoWrapper">
-      <img class="headerLogo" src="img/logo.png" alt="ロゴ画像">
+    <div class="headerLogo">
+      <img class="headerLogoImg" src="img/logo.png" alt="ロゴ画像">
     </div>
     <img class="headerImg" src="img/hero.png" alt="ヒーロー画像">
     <div class="headerBody">
@@ -27,7 +27,7 @@
         <p class="postDatetime">2019/5/24 12:34</p>
         <h2 class="postTitle">Article Title</h2>
       </header>
-      <div class="postBody">
+      <section class="postBody">
         <img class="postImgFull" src="img/italy.png" alt="イタリアの街並み">
         <p class="postText">本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト</p>
         <ol class="postOl">
@@ -47,35 +47,31 @@
         </div>
         <blockquote class="postQuote">ここは他サイトからの引用テキストです。ここは他サイトからの引用テキストです。ここは他サイトからの引用テキストです。ここは他サイトからの引用テキストです。ここは他サイトからの引用テキストです。ここは他サイトからの引用テキストです。ここは他サイトからの引用テキストです。ここは他サイトからの引用テキストです。</blockquote>
         <p class="postText">本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト</p>
-      </div>
+      </section>
 
       <div class="postShare">
         <p>記事をシェアする</p>
-        <img src="img/icon-twitter.png" alt="twitter">
-        <img src="img/icon-facebook.png" alt="facebook">
-        <img src="img/line-brands.png" alt="line">
+        <a href="twitterlink"><i class="fab fa-twitter-square"></i></a>
+        <a href="facebooklink"><i class="fab fa-facebook-square"></i></a>
+        <a href="linelink"><i class="fab fa-line"></i></a>
       </div>
     </article>
   </main>
 
   <aside class="author">
-    <div class="authorWrapper">
-      <div class="authorImg">
-        <img src="img/author.png" alt="山田太郎">
-      </div>
-      <div class="authorBody">
-        <h3 class="authorHeadline">この記事を書いた人</h3>
-        <p class="authorName">山田太郎</p>
-        <p class="authorCaption">フリーライター。いろんなことを書いています。いろんなことを書いています。</p>
-      </div>
+    <div class="authorImg">
+      <img src="img/author.png" alt="山田太郎">
+    </div>
+    <div class="authorBody">
+      <h3 class="authorHeadline">この記事を書いた人</h3>
+      <p class="authorName">山田太郎</p>
+      <p class="authorCaption">フリーライター。いろんなことを書いています。いろんなことを書いています。</p>
     </div>
   </aside>
 
   <nav class="linearNav">
-    <div class="linearNavWrapper">
-      <a class="" href="hoge"><span class="btnPrevious"><i class="fa fa-chevron-left" aria-hidden="true"></i>　前の記事</span></a>
-      <a class="" href="hoge"><span class="btnNext">次の記事　<i class="fa fa-chevron-right" aria-hidden="true"></i></span></a>
-    </div>
+    <a class="" href="hoge"><span class="btnPrevious"><i class="fa fa-chevron-left" aria-hidden="true"></i>　前の記事</span></a>
+    <a class="" href="hoge"><span class="btnNext">次の記事　<i class="fa fa-chevron-right" aria-hidden="true"></i></span></a>
   </nav>
 
   <footer class="footer">
