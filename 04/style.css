@@ -1,0 +1,319 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display: block;
+    height: 1px;
+    border: 0;  
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+input, select {
+    vertical-align: middle;
+}
+/* リセットcssここまで */
+
+*, *:before, *:after {
+    box-sizing: border-box;
+} /* border-boxを全セレクタに適用 */
+
+body {
+    background-color: #fff;
+}
+
+.body {
+    width: 100%;
+    max-width: 640px;
+    margin: auto;
+}
+
+.header {
+    background-color: #252525;
+    height: 40px;
+    padding: 10px 7px;
+}
+
+.hero-image {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.site_title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.site_caption {
+    text-align: center;
+    font-size: 12px;
+    color: #adadad;
+}
+
+.article {
+    margin: 40px 12px 0 12px;
+}
+
+.post_time {
+    display: block;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.post_title {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.post_image {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.post_text {
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.post_ol {
+    margin: 20px 0;
+    padding-left: 16px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #666;
+}
+
+.post {
+    display: flex;
+    flex-direction: row;
+}
+
+.post_item01 {
+    order: 1;
+}
+.post_item02 {
+    order: 2;
+}
+
+.post_image_sub {
+    width: 138px;
+    height: 138px;
+    margin-right: 10px;
+}
+
+.post_ul {
+    padding-left: 24px;
+    margin-top: 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #666;
+}
+
+.post_blockquote {
+    position: relative;
+    padding: 20px;
+    margin: 20px 0;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #666;
+}
+
+.post_blockquote::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: url(img/quote_open.png);
+}
+
+.post_blockquote::after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    content: url(img/quote_close.png);
+}
+
+.share-button {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px 20px;
+    text-decoration: none;
+    font-size: 36px;
+}
+
+.share-button_caption {
+    flex-basis: 100%;
+    text-align: center;
+    color: #252525;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+.share-button_twitter {
+    color: #1DA1F2;
+}
+
+.share-button_facebook {
+    color: #1877f2;
+}
+
+.share-button_line {
+    color: #00b900;
+}
+
+.author {
+    display: flex;
+    padding: 16px 0;
+    border-top: #adadad solid 1px;
+    border-bottom: #adadad solid 1px;
+}   
+
+.author_photo {
+    margin-right: 24px;
+}
+
+.author_title {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 4px;
+}
+
+.author_name {
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 4px;
+}
+
+.author_text {
+    font-size: 10px;
+    line-height: 1.5;
+}
+
+.article-nav {
+    margin: 0  12px;
+    padding: 24px 0;
+    border-bottom: #adadad solid 1px;
+}
+
+.article-nav_list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-nav-icon_prev , .article-nav-icon_next , .article-nav-text_prev , .article-nav-text_next {
+    font-size: 12px;
+    font-weight: bold;
+    color: #ff015d;
+}
+
+.article-nav-icon_prev {
+    margin-right: 8px;
+}
+
+.article-nav-icon_next {
+    margin-left: 8px;
+}
+
+.footer {
+    margin-top: 50px;
+    padding: 10px;
+    background-color: #6e6e6e;
+}
+
+.footer_copyright{
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+}
