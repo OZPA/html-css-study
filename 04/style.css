@@ -186,6 +186,8 @@ body {
 }
 
 .post_image_sub {
+    width: 138px;
+    height: 138px;
     margin-right: 10px;
 }
 
