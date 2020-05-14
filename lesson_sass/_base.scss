@@ -45,4 +45,10 @@ code {
   background: #efefef;
   font-family: 'Verdana';
 }
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
 /*  -------- base style (Don't EDIT!!!) -------- */
