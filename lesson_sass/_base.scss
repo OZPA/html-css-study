@@ -4,7 +4,10 @@
 }
 
 .section {
-  margin-bottom: 50px;
+  width: 100%;
+  max-width: 1000px;
+  display: block;
+  margin: 0 auto 50px;
 }
 
 h1 {
