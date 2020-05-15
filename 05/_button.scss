@@ -1,0 +1,24 @@
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  appearance: none;
+}
+
+.button {
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 0 1px #000;
+  border-radius: 2px;
+
+  &.clear {
+    background: #2ecc71;
+  }
+
+  &.false {
+    background: #e74c3c;
+  }
+}
