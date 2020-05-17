@@ -19,8 +19,72 @@
 
 /* -------- ここから下にstyleを書いてください -------- */
 
+/* -------- Level 1 -------- */
+.container_01 {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.left_01 {
+  float: left;
+}
+
+.left_01 img, .right_01 img {
+  width: 480px;
+}
+
+.right_01 {
+  float: right;
+}
 
 
+/* -------- Level 2 -------- */
+
+.container_02 {
+  width: 1000px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.left_02 img, .right_02 img {
+  width: 480px;
+  height: auto;
+}
+
+/* -------- Level 3 -------- */
+
+.container_03 {
+  width: 1000px;
+  height: auto;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.box_01, .box_02 {
+  height: auto;
+  box-sizing: border-box;
+  padding: 30px;
+  display: flex;
+}
+
+.box_01 {
+  background-color: #2ecc71;
+  width: 400px;
+}
+
+.box_02 {
+  background-color: #1abc9c;
+  width: 580px;
+}
+
+.inner {
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 20px;
+}
 
 
 
