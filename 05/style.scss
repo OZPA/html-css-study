@@ -167,6 +167,14 @@ _button.scssでもアンパサンドを利用している記述があるので�
 }
 
 */
+.list {
+  list-style: none;
+  padding-left: 1.2em;
+  &:before {
+    content: "✓";
+    padding-right: 10px;
+  }
+}
 
 
 /*
