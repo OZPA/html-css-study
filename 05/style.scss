@@ -8,6 +8,7 @@ Sassでは @import "base.scss"; のように、他のscssファイルをイン�
 */
 
 @import "base";
+@import "button";
 
 /*
 ② 変数を使える
@@ -31,6 +32,22 @@ $text_color: #1a1a1a;
 ・.content の背景色に $bg_colorを、widthに $content_width を、paddingに $inner_padding を設定してください
 ・.inner の背景色に $inner_bg_color を、paddingに $inner_padding を設定してください。
 */
+
+$bg_color: #009eff;
+$inner_bg_color: #a0c6da;
+$content_width: 100%;
+$inner_padding: 2em;
+
+.content {
+  background-color: $bg_color;
+  width: $content_width;
+  padding: $inner_padding;
+}
+
+.inner {
+  background-color: $inner_bg_color;
+  padding: $inner_padding;
+}
 
 
 /*
