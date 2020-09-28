@@ -243,3 +243,22 @@ cf, https://qiita.com/2x2no/items/3ea1c16781321723a254
 ---
 
 */
+
+$card-width: 23%;
+$card-bg-color: yellow;
+
+.container {
+  display: flex;
+}
+
+.card {
+  width: $card-width;
+  background-color: $card-bg-color;
+  margin: 1%;
+  &__inner {
+    padding: 10px;
+    p {
+      color: red;
+    }
+  }
+}
