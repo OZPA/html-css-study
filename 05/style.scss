@@ -8,6 +8,7 @@ Sassでは @import "base.scss"; のように、他のscssファイルをイン�
 */
 
 @import "base";
+@import "button";
 
 /*
 ② 変数を使える
@@ -31,6 +32,22 @@ $text_color: #1a1a1a;
 ・.content の背景色に $bg_colorを、widthに $content_width を、paddingに $inner_padding を設定してください
 ・.inner の背景色に $inner_bg_color を、paddingに $inner_padding を設定してください。
 */
+
+$bg_color: #009eff;
+$inner_bg_color: #a0c6da;
+$content_width: 100%;
+$inner_padding: 2em;
+
+.content {
+  background-color: $bg_color;
+  width: $content_width;
+  padding: $inner_padding;
+}
+
+.inner {
+  background-color: $inner_bg_color;
+  padding: $inner_padding;
+}
 
 
 /*
@@ -79,7 +96,15 @@ Sassではcssでできなかったネスト（入れ子）を使用すること�
 }
 ---
 */
-
+.num-list {
+  padding: 10px;
+  li {
+    list-style: none;
+    strong {
+      color: red;
+    }
+  }
+}
 
 /*
 ④ アンパサンド（&）を使ってみよう
@@ -142,6 +167,14 @@ _button.scssでもアンパサンドを利用している記述があるので�
 }
 
 */
+.list {
+  list-style: none;
+  padding-left: 1.2em;
+  &:before {
+    content: "✓";
+    padding-right: 10px;
+  }
+}
 
 
 /*
@@ -184,7 +217,16 @@ cf, https://qiita.com/2x2no/items/3ea1c16781321723a254
 のように定義して、 .box に@include してみましょう。
 
 */
+@mixin box {
+  width: 600px;
+  height: 200px;
+  padding: 15px;
+  border: 5px solid blue;
+}
 
+.box {
+  @include box;
+}
 
 
 /*
@@ -201,3 +243,22 @@ cf, https://qiita.com/2x2no/items/3ea1c16781321723a254
 ---
 
 */
+
+$card-width: 23%;
+$card-bg-color: yellow;
+
+.container {
+  display: flex;
+}
+
+.card {
+  width: $card-width;
+  background-color: $card-bg-color;
+  margin: 1%;
+  &__inner {
+    padding: 10px;
+    p {
+      color: red;
+    }
+  }
+}
