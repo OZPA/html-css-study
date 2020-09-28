@@ -217,7 +217,16 @@ cf, https://qiita.com/2x2no/items/3ea1c16781321723a254
 のように定義して、 .box に@include してみましょう。
 
 */
+@mixin box {
+  width: 600px;
+  height: 200px;
+  padding: 15px;
+  border: 5px solid blue;
+}
 
+.box {
+  @include box;
+}
 
 
 /*
