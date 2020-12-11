@@ -1,4 +1,4 @@
-﻿# html-css-study
+# html-css-study
 
 ## Overview
 
@@ -31,7 +31,9 @@ gitは怖くないよ！htmlもcssも怖くないよ！
 * kikuchi
 * kento
 * nobukoni
+* minyok169
 * OZPA
+
 
 ---
 
