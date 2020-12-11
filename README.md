@@ -1,4 +1,4 @@
-# html-css-study/Users/minori.yokoyama/Desktop/html-css-study/README.md
+# html-css-study
 
 ## Overview
 
