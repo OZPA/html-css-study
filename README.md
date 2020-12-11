@@ -1,4 +1,4 @@
-# html-css-study
+# html-css-study/Users/minori.yokoyama/Desktop/html-css-study/README.md
 
 ## Overview
 
@@ -31,8 +31,9 @@ gitは怖くないよ！htmlもcssも怖くないよ！
 * kikuchi
 * kento
 * nobukoni
-* OZPA
 * minyok169
+* OZPA
+
 
 ---
 
