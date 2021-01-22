@@ -18,12 +18,6 @@
 }
 
 /* -------- ここから下にstyleを書いてください -------- */
-.body p {
-  clear: both;
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 /* -------- level 1 float -------- */
 .container_01 {
