@@ -19,10 +19,80 @@
 
 /* -------- ここから下にstyleを書いてください -------- */
 
+/* -------- level 1 float -------- */
+.container_01 {
+  width: 1000px;
+  margin: auto;
+}
 
+.left_01 {
+  float: left;
+  text-align: center;
+}
 
+.left_01 img {
+  width: 480px;
+}
 
+.right_01 {
+  float: right;
+  text-align: center;
+}
 
+.right_01 img {
+   width: 480px;
+}
+
+/* -------- level 2 flex -------- */
+.container_02 {
+  display: flex;
+  width: 1000px;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.left_02 {
+  text-align: center;
+}
+
+.left_02 img {
+  width: 480px;
+}
+
+.right_02 {
+  text-align: center;
+}
+
+.right_02 img {
+  width: 480px;
+}
+
+/* -------- level 3 margin/padding -------- */
+.container_03 {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  margin: auto;
+}
+
+.box_01 {
+  display: flex;
+  width: 340px;
+  padding: 30px;
+  background-color: #2ecc71;
+}
+
+.box_02 {
+  display: flex;
+  width: 520px;
+  padding: 30px;
+  background-color: #1abc9c;
+}
+
+.inner {
+  padding: 20px;
+  background-color: #ffffff;
+}
 
 /* -------- Level 3 background-olor -------- */
 
